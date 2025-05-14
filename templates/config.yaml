@@ -1,3 +1,7 @@
-default:
+base16:
   supported-systems: [base16]
+  filename: "themes/{{scheme-system}}-{{scheme-slug}}.toml"
+
+base24:
+  supported-systems: [base24]
   filename: "themes/{{scheme-system}}-{{scheme-slug}}.toml"
